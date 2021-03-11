@@ -1,0 +1,55 @@
+body{
+    background: darkgray;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+#principal{
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header{
+    height: 75px;
+    display: inline-flex;
+}
+
+#html-icon{
+    width: 45px;
+    margin: auto;
+    margin-left: 5px;
+}
+
+#header-text{
+    font-size: 20px;
+    width: 100px;
+    margin: auto;
+}
+
+#dots{
+    margin: auto;
+    position: relative;
+    left:325px;    
+}
+
+#photo{
+    max-width: 500px;
+    background-color: red;
+    height: 500px;
+    overflow: hidden;
+}
+
+#footer{
+    margin: auto;
+    max-width: 500px;
+    text-align: justify;
+    padding: 15px;
+}
+
+#bookmark{
+    float: right;
+}
